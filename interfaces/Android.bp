@@ -1,4 +1,9 @@
 hidl_package_root {
     name: "vendor.xiaomi",
-    path: "device/xiaomi/sm6150-common/interfaces",
+    path: "device/xiaomi/sm6150-common/interfaces/hardware",
+}
+
+hidl_package_root {
+    name: "vendor.goodix",
+    path: "device/xiaomi/sm6150-common/interfaces/goodix",
 }
