@@ -369,3 +369,7 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/sm6150-common/sm6150-common-vendor.mk)
+
+TARGET_BOARD_PLATFORM := sm6150
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
