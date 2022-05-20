@@ -19,6 +19,7 @@ cc_defaults {
         "android.hardware.biometrics.fingerprint@2.1",
         "android.hardware.biometrics.fingerprint@2.2",
         "android.hardware.biometrics.fingerprint@2.3",
+        "//device/xiaomi/sm6150-common:vendor.goodix.hardware.biometrics.fingerprint@2.1",
     ],
 
 }
