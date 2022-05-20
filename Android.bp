@@ -1,2 +1,5 @@
 soong_namespace {
+    imports: [
+        "device/xiaomi/sm6150-common/interfaces",
+    ],
 }
