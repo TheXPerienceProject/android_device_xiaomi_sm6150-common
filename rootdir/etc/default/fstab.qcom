@@ -34,13 +34,10 @@
 
 #<src>                                                 <mnt_point>               <type>  <mnt_flags and options>
 /dev/block/bootdevice/by-name/system                    /                        ext4    ro,barrier=1,discard,i_version                                 wait,avb
-/dev/block/bootdevice/by-name/system                    /                        erofs   ro                                                   wait,avb
 /dev/block/bootdevice/by-name/vendor                    /vendor                  ext4    ro,barrier=1                                                                                      wait,recoveryonly
-/dev/block/bootdevice/by-name/vendor                    /vendor                  erofs   ro                                                   wait,recoveryonly
 /dev/block/bootdevice/by-name/boot                      /boot                    emmc    defaults                                                                                          recoveryonly
 /dev/block/bootdevice/by-name/recovery                  /recovery                emmc    defaults                                                                                          recoveryonly
 /dev/block/bootdevice/by-name/cust                      /system_ext              ext4    ro,noatime,nodev,barrier=1                           wait,recoveryonly
-/dev/block/bootdevice/by-name/cust                      /system_ext              erofs   ro                                                   wait,recoveryonly
 /dev/block/bootdevice/by-name/cache                     /cache                   ext4    nosuid,noatime,nodev,barrier=1                       wait
 
 # Add fs_mgr flag - sysfs_path=/sys/devices/platform/soc/xxxx.[ufshc|sdhci] to userdata entry, based on UFS|eMMC device.
