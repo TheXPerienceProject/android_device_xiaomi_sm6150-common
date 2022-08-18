@@ -338,6 +338,8 @@ vendor/lib/egl/libq3dtools_adreno.so|e1f7eab8eaa3c58d6b8e2ba9ed557205533ceb36
 vendor/lib/egl/libq3dtools_esx.so|401aa28ddf45adb145a3f3fc299359cbd7e96e7b
 vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so|4070f2e7434b115c04cd32217735a2d31dccdca9
 vendor/lib/hw/vulkan.adreno.so|ff5fbe47a7016b102b2689758611c20fc8a40ccf
+vendor/lib/android.hardware.graphics.mappershim.so|f4d65a56379b4931befbf49ce67449a205d3f0fb
+vendor/lib/android.hardware.graphics.mappershim.so.idb|870b14c11b1ae5b584efec61d70ac9d7305c4112
 vendor/lib/libC2D2.so|f151ffcf2038152e39d5087d78e19f0a40f4797e
 vendor/lib/libVkLayer_q3dtools.so|1427c8f65de3d3f9e11acf758443772021fccf7c
 vendor/lib/libadreno_app_profiles.so|74b97712bb01d1b31b1dc21d1fe773c32a2f98e2
@@ -356,6 +358,8 @@ vendor/lib/notdmabufheap.so|c04a3ca378ba223730dd6fbb7c8e9a5d7a993fc8
 vendor/lib/notgsl.so|2e948ba140c157330fac183722d07853563b0a44
 vendor/lib/notllvm-glnext.so|4ee907526ca4430a3ed029e32a62dfabd319b6fe
 vendor/lib/notllvm-qgl.so|2b8d6b7a34b96dc224644300d3984a85f48770c6
+vendor/lib/vendor.qti.hardware.display.mapperextensionsshim.so|48d2eac3e2cc02418709892b123f72a1f4a014f8
+vendor/lib/vendor.qti.hardware.display.mappershim.so|3edc8beec8424fff247fa9e9b8debfe808e302d7
 vendor/lib64/egl/eglSubDriverAndroid.so|9bcc9af81f6bd5cb0b45a56257375225b7793415
 vendor/lib64/egl/libEGL_adreno.so|4438851ca16d42882883cfaa9125c8ce99f8bc8a
 vendor/lib64/egl/libGLESv1_CM_adreno.so|db471c967c237b6e135909f9c2d46686db77c755
@@ -363,6 +367,7 @@ vendor/lib64/egl/libGLESv2_adreno.so|de6036f88b7bd23348e64432d7c70953ecbad3f7
 vendor/lib64/egl/libq3dtools_adreno.so|169f0359a8654d527087da6ca947535211883f63
 vendor/lib64/egl/libq3dtools_esx.so|22ee2d23f94c1e42cbeb225327cba019728d510a
 vendor/lib64/hw/vulkan.adreno.so|c4ea138c13a5ee73071b758a38270d74b7456a67
+vendor/lib64/android.hardware.graphics.mappershim.so|768a92ff2b96fb863774fd5a0ddd645d5c1ae64e
 vendor/lib64/libC2D2.so|a1e3d73f3f6314a708ae1a567afd0772a518da3b
 vendor/lib64/libCB.so|bc0428a104602189d260c33aeb22e9f6e2992e4a
 vendor/lib64/libdmabufheap.so|758f3050eb5f3352161c24c979f3b62354efa0cf
@@ -385,6 +390,8 @@ vendor/lib64/notdmabufheap.so|803e67ca962c0ea8d6715ab0c64b93a22ce19dc6
 vendor/lib64/notgsl.so|2b31b89514f54110c57d5774062a2709bfb22d7d
 vendor/lib64/notllvm-glnext.so|9684d8397d25139bbf4300f1cf83eee8a51c0cf1
 vendor/lib64/notllvm-qgl.so|0309ee4cc9c88a77858d6aff2381e6f43b5dc82e
+vendor/lib64/vendor.qti.hardware.display.mapperextensionsshim.so|aeac0760e09f98eef3bef3df8a8e4afb259d3639
+vendor/lib64/vendor.qti.hardware.display.mappershim.so|d8499ba39bac8bcdbaffc3e1ad843d3c26e5b4d1
 
 # Graphics (DRM) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/lib64/libsdedrm.so|351f4f9a64566097bd19601f18951ac8131a92b5
