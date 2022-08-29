@@ -4,10 +4,6 @@ ro.launcher.blur.appLaunch=0
 # Bluetooth
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500
-persist.vendor.bt.a2dp.aac_whitelist=false
-persist.vendor.btstack.enable.twsplus=false
-persist.vendor.btstack.enable.twsplussho=false
-ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
