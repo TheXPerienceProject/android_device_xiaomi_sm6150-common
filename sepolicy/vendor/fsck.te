@@ -1,0 +1,2 @@
+# Unable to set property "ro.boottime.init.mount.system_ext" to "0": error code: 0xb
+allow fsck block_device:blk_file { read write };

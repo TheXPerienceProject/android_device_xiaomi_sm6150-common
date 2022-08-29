@@ -29,3 +29,4 @@ allow devicesettings_app {
   sysfs_thermal
 }:file rw_file_perms;
 
+allow devicesettings_app default_prop:file read;
