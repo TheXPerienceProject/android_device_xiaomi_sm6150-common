@@ -362,6 +362,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
 PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 PRODUCT_PRODUCT_VNDK_VERSION := current
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpiex-v29.so \
+
 
 # Wifi
 PRODUCT_PACKAGES += \
