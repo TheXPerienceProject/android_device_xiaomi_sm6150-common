@@ -97,7 +97,7 @@ function blob_fixup() {
         sed -i "s|writepid /dev/cpuset/foreground/tasks|task_profiles ProcessCapacityHigh|g" "${2}"
     ;;
     vendor/lib64/camera/components/com.qti.node.watermark.so)
-        $PATCHELF_TOOL --add-needed "libpiex_shim.so" "${2}"
+         ${PATCHELF} --add-needed "libpiex-v29.so" "${2}"
     ;;
     esac
 }
