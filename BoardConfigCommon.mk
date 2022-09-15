@@ -46,6 +46,7 @@ BOARD_KERNEL_CMDLINE +=  androidboot.vbmeta.avb_version=1.0
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument" \
