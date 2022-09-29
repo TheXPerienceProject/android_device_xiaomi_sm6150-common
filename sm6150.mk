@@ -353,7 +353,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/xiaomi
+    hardware/xiaomi \
+    packages/modules/Bluetooth/android/app \
+    system/bt/conf
 
 # Touchscreen
 PRODUCT_PACKAGES += \
