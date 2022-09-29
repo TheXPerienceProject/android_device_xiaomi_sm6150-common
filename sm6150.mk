@@ -288,9 +288,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
-# Perf
-PRODUCT_PACKAGES += \
-    libqti-perfd-client
+MSMSTEPPE := sm6150
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 
 # Power
 PRODUCT_PACKAGES += \
@@ -299,6 +298,14 @@ PRODUCT_PACKAGES += \
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
+
+TARGET_KERNEL_VERSION := 4.14
+TARGET_PROVIDES_POWERHAL := true
+# Qualcomm kernel.
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf \
+    telephony
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -347,22 +354,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/xiaomi
-
-# Telephony
-PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
-    qti-telephony-hidl-wrapper \
-    qti-telephony-hidl-wrapper-prd \
-    qti-telephony-utils \
-    qti_telephony_hidl_wrapper.xml \
-    qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # Touchscreen
 PRODUCT_PACKAGES += \
