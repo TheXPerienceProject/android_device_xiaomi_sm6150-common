@@ -111,32 +111,6 @@ vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 
-# CNE (system) - from LA.QSSI.13.0.r1-05800-qssi.0
-system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|4f483c8474fde0265baa9eec278b99a9a57c6d7d
-system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar|d4f29d4a7db3e837261c16099ada0d64a8cf1986
-system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar|1166b87531cb34b6f1810a64c5303e6d0621542f
-system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar|6917d4852b7e8c0a13fd7855469b4fc0db52b296
-system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar|c615e153fba7b3eaeb74e823f4ddacd180115eae
-system_ext/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar|282ec1c83d7d7612b67ec05ccc5b5914cc63c096
-system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar|dfd035c2f39c869a26e33354cd334b23fe5ea7f9
-system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar|3573bfd5c9d2b06a559de6d2a0ca464c2cdb9732
-system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar|ea91e31618d3bbce801342c49e52a6d35c16ee52
-system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar|693bb89e3b24bd104ce635afba4cf5eb0caf98e9
-system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar|1e60fca495f947ccb3d1d53807c92bd088e3febc
--system_ext/lib64/com.quicinc.cne.api@1.0.so|e4365731689858518c34f7a3acc50ed3b9249ba7
--system_ext/lib64/com.quicinc.cne.api@1.1.so|3b60e9cd3848de4d9883708708f21be189a1d9ad
--system_ext/lib64/com.quicinc.cne.constants@1.0.so|1782e9f7f84a3703381df9a2403a1cd7e631e3e8
--system_ext/lib64/com.quicinc.cne.constants@2.0.so|7d0e347a4d52232590ce798f525d250835b0ba3b
--system_ext/lib64/com.quicinc.cne.constants@2.1.so|e7b16aab6fbb3aed177b45e2269f973149d40348
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|653f958f61fb220186df05be78b1dc31de018caf
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so|897c2e69cf378172a3541d3f6ca8d1d2acd61d27
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so|1251d996adf67b4af96b1f172a559aecb7b45e44
-system_ext/lib64/vendor.qti.hardware.data.connection@1.0.so|c35d78ea71df9941ee7b5a32b6fa1757b2af2576
-system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so|e943a17ee9ba901dd51ccb48a79d75ee3a68e207
-system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|09ebf5d395fcbc5adcf254e92efbf9102fcf561d
-system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|49c1929b7a11322b8bd5f0475cfe145249987aba
-system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so|24971bc71ed5049511ab6768596a2b0432adbfff
-
 # CNE (vendor) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/app/CneApp/CneApp.apk|909e1cce38c475a2b274df5f0571ccd7655d86a1
 vendor/app/IWlanService/IWlanService.apk|7b857a7efe66fb2519874e70a58d71eee72e92e9
