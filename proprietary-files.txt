@@ -56,7 +56,7 @@ vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 
-# Audio FX modules (system) - from LA.QSSI.13.0.r1-05800-qssi.0
+# Audio FX modules (system) - from LA.QSSI.13.0.r1-06400-qssi.0
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|3c42dff6da0571acd9ea466983c7f6354d588bb3
 
@@ -224,7 +224,7 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so|0af387d416acf6d697b9edd4090e3a694169
 # DRM - Widevine L1
 vendor/lib64/liboemcrypto.so
 
-# FM (system) - from LA.QSSI.13.0.r1-05800-qssi.0
+# FM (system) - from LA.QSSI.13.0.r1-06400-qssi.0
 system_ext/lib64/fm_helium.so|623a78dfe8f73808158bc88116cd3204588aa126
 system_ext/lib64/libfm-hci.so|605591d98f2a98773209ae67f374e726f39eeda4
 
@@ -427,7 +427,7 @@ vendor/lib64/vendor.display.postproc@1.0.so|9c7232cd75fd9df83e4a7b28c5ee796f488a
 # Power-off charging daemon
 bin/charger:bin/chargeonlymode
 
-# QMI (system) - from LA.QSSI.13.0.r1-05800-qssi.0
+# QMI (system) - from LA.QSSI.13.0.r1-06400-qssi.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 
@@ -637,7 +637,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|938262f1c75299523dc8e5c4e6a7937
 vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
-# WiFi Display (system) - from LA.QSSI.13.0.r1-05800-qssi.0
+# WiFi Display (system) - from LA.QSSI.13.0.r1-06400-qssi.0
 framework/WfdCommon.jar|323859204993cb8bf89821baeb08a6a85e750c65
 system_ext/bin/wfdservice|cd0638589d1f652d5d40673105dd3ee63856cb88
 system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
