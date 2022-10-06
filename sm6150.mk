@@ -285,6 +285,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+MSMSTEPPE := sm6150
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+TARGET_KERNEL_VERSION := 4.14
+TARGET_PROVIDES_POWERHAL := true
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
