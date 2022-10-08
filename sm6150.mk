@@ -306,8 +306,7 @@ TARGET_PROVIDES_POWERHAL := true
 # Qualcomm kernel.
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_COMMON_QTI_COMPONENTS := \
-    perf \
-    telephony
+    perf
 
 # Ramdisk
 PRODUCT_PACKAGES += \
