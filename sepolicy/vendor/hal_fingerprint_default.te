@@ -32,3 +32,6 @@ allow hal_fingerprint_default vendor_hal_perf_hwservice:hwservice_manager find;
 
 hal_client_domain(hal_fingerprint_default, hal_touchfeature)
 binder_call(hal_fingerprint_default, hal_touchfeature_default)
+
+# BoostFramework
+binder_call(hal_fingerprint_default, vendor_hal_perf_default)
