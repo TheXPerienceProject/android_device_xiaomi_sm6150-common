@@ -379,7 +379,6 @@ PRODUCT_PRODUCT_VNDK_VERSION := current
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-core/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpiex-v29.so \
 
-
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
@@ -405,7 +404,7 @@ PRODUCT_PACKAGES += \
     libnl \
     libqdMetaData \
     libqdMetaData.system \
-    libwfdaac_vendor
+    libwfdaac_vendor:32
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
