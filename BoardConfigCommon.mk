@@ -57,7 +57,11 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 KERNEL_LD := LD=ld.lld
+ifneq ($(TARGET_DEVICE), courbet)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
+else
+TARGET_KERNEL_SOURCE := kernel/xiaomi/courbet
+endif
 
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
