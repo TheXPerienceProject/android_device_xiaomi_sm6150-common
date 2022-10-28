@@ -308,9 +308,16 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf
 
 # Ramdisk
+ifeq ($(TARGET_DEVICE), davinci)
 PRODUCT_PACKAGES += \
     fstab.default \
-    fstab.emmc \
+    fstab.emmc
+else
+PRODUCT_PACKAGES += \
+    fstab.default.courbet
+endif
+
+PRODUCT_PACKAGES += \
     init.insmod.sh \
     init.mi.usb.sh \
     init.qti.early_init.sh \
