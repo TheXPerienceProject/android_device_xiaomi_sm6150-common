@@ -316,7 +316,7 @@ PRODUCT_PACKAGES += \
     fstab.emmc
 else
 PRODUCT_PACKAGES += \
-    fstab.default.courbet
+    fstab.default
 
 BOARD_VNDK_VERSION := current
 endif
