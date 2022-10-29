@@ -46,21 +46,35 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.console=ttyMSM0 se
 BOARD_KERNEL_CMDLINE +=  androidboot.vbmeta.avb_version=1.0
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM=1 \
     LLVM_IAS=1 \
-    DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 KERNEL_LD := LD=ld.lld
 ifneq ($(TARGET_DEVICE), courbet)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_KERNEL_APPEND_DTB := true
+TARGET_KERNEL_ADDITIONAL_FLAGS += DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc
 else
 TARGET_KERNEL_SOURCE := kernel/xiaomi/courbet
+TARGET_KERNEL_CONFIG := courbet_defconfig
+TARGET_KERNEL_APPEND_DTB := false
+BOARD_KERNEL_IMAGE_NAME := Image.gz
+TARGET_KERNEL_APPEND_DTB := false
+BOARD_KERNEL_BASE := 0x00000000
+TARGET_KERNEL_CLANG_COMPILE := true
+KERNEL_SUPPORTS_LLVM_TOOLS := true
+TARGET_KERNEL_CLANG_VERSION := playground
+TARGET_CLANG_PREBUILTS_VERSION := playground
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-playground
+TARGET_CLANG_WITH_GNU_BINUTILS := true
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := arm-linux-gnueabi-
 endif
 
 # Platform

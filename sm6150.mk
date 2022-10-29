@@ -315,6 +315,8 @@ PRODUCT_PACKAGES += \
 else
 PRODUCT_PACKAGES += \
     fstab.default.courbet
+
+BOARD_VNDK_VERSION := current
 endif
 
 PRODUCT_PACKAGES += \
