@@ -67,3 +67,15 @@ cc_binary {
     ],
     proprietary: true,
 }
+
+cc_library {
+    name: "libudfpshandler",
+    vendor: true,
+    srcs: ["UdfpsHandler.cpp"],
+    shared_libs: [
+        "libbase",
+    ],
+    header_libs: [
+        "//hardware/xiaomi:xiaomifingerprint_headers",
+    ],
+}
