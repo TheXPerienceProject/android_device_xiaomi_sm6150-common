@@ -176,9 +176,9 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    libudfpshandler \
+    sensors.udfps \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sm6150
 
 # FM
 PRODUCT_PACKAGES += \
