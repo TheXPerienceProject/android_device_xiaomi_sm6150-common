@@ -56,7 +56,7 @@ vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 
-# Audio FX modules (system) - from LA.QSSI.13.0.r1-07400-qssi.0
+# Audio FX modules (system) - from LA.QSSI.13.0.r1-08200-qssi.0
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|3c42dff6da0571acd9ea466983c7f6354d588bb3
 
@@ -228,7 +228,7 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so|0af387d416acf6d697b9edd4090e3a694169
 # DRM - Widevine L1
 vendor/lib64/liboemcrypto.so
 
-# FM (system) - from LA.QSSI.13.0.r1-07400-qssi.0
+# FM (system) - from LA.QSSI.13.0.r1-08200-qssi.0
 system_ext/lib64/fm_helium.so|623a78dfe8f73808158bc88116cd3204588aa126
 system_ext/lib64/libfm-hci.so|605591d98f2a98773209ae67f374e726f39eeda4
 
@@ -431,7 +431,7 @@ vendor/lib64/vendor.display.postproc@1.0.so|9c7232cd75fd9df83e4a7b28c5ee796f488a
 # Power-off charging daemon
 bin/charger:bin/chargeonlymode
 
-# QMI (system) - from LA.QSSI.13.0.r1-07400-qssi.0
+# QMI (system) - from LA.QSSI.13.0.r1-08200-qssi.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 
@@ -641,20 +641,20 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|938262f1c75299523dc8e5c4e6a7937
 vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
-# WiFi Display (system) - from LA.QSSI.13.0.r1-07400-qssi.0
+# WiFi Display (system) - from LA.QSSI.13.0.r1-08200-qssi.0
 framework/WfdCommon.jar|323859204993cb8bf89821baeb08a6a85e750c65
 system_ext/bin/wfdservice|cd0638589d1f652d5d40673105dd3ee63856cb88
 system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
 system_ext/etc/seccomp_policy/wfdservice.policy|37994de64d6bd127898bd556cd614db459fe07ec
 system_ext/etc/wfdconfigsink.xml|cb78df66948314a75080a4161321fb3111a0785a
-system_ext/lib/libmmosal.so|7e6d91e371e7d3885612561ee1d024dc64f264bd
+system_ext/lib/libmmosal.so|52e6c7532ce49bf09ddb091b2951f3bf4dd6fc27
 system_ext/lib/libmmparser_lite.so|7171defd018c507a2e34784569eb9920a22f15cf
 system_ext/lib/libmmrtpdecoder.so|e15387b44fd9b3661d763d934663551ca30743d7
 system_ext/lib/libmmrtpencoder.so|dbf276471b60a706d76e12edde388ef887b27396
-system_ext/lib/libwfdavenhancements.so|e226001be67a2de70a9e762be6b8424fc7f77d2b
+system_ext/lib/libwfdavenhancements.so|d2c1ba6549400d6e81573bc477b071102244cff6
 system_ext/lib/libwfdclient.so|bfc8de259536a1455733d949ef449845ba766bd6
 system_ext/lib/libwfdcommonutils.so|4b48d7941df68f7316c464d94d2f31d4e8f026e5
-system_ext/lib/libwfdconfigutils.so|53f7eb78d4dbde1c0e4a34b1371eafef3520e7e0
+system_ext/lib/libwfdconfigutils.so|72266112ef3438477949d1fdb52a3546ecc14119
 system_ext/lib/libwfddisplayconfig.so|ec3383d6c03a21985f4442eae6c7e935867d10c8
 system_ext/lib/libwfdmminterface.so|1bb29e1b8679c45fe571b31a0f3987e3c2156de0
 system_ext/lib/libwfdmmsink.so|fb043f43e4f637f8c6f39411c88302f602907b3f
@@ -667,7 +667,7 @@ system_ext/lib/libwfduibcsink.so|5630028a8152379a1037d81224b8c031209b93ce
 system_ext/lib/libwfduibcsinkinterface.so|590c026fd1487f4c26f172846f156a12ecc52922
 system_ext/lib/libwfduibcsrc.so|09821648adb3275b2c2619af7581f35a47643ff5
 system_ext/lib/libwfduibcsrcinterface.so|5109d34b3d30d107831c425e7bbde1eb1b8cfa02
-system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|0a2807f03ea671df619ce716a5c0cd1b26df905e
+system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|935a84395d2fea8a4592b394c366f360a08e1f87
 system_ext/lib64/libmmosal.so|d46f10b470ecd829c6f2a424566f1cbbc6ebe234
 system_ext/lib64/libmmparser_lite.so|1959f64d628f9c7dac476f4e32a4f9cae1443f76
 system_ext/lib64/libmmrtpdecoder.so|8bb6d0a8f31795ed913acd3e8cb2299ada7cd22c
