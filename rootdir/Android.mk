@@ -7,11 +7,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE       := fstab.default
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
-ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
-LOCAL_SRC_FILES    := etc/default/fstab_non_AB_dynamic_partition.qti
-else
 LOCAL_SRC_FILES    := etc/default/fstab.qcom
-endif
 LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_ETC)
 include $(BUILD_PREBUILT)
 
