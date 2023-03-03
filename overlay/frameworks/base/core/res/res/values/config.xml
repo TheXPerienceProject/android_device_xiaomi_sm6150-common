@@ -607,4 +607,12 @@
     that have a HWC implementation that can apply the matrix passed to setColorTransform
     without impacting power, performance, and app compatibility (e.g. protected content). -->
     <bool name="config_nightDisplayAvailable">true</bool>
+
+    <!-- Smart charging -> now Battery protection-->
+    <bool name="config_batteryProtectionAvailable">true</bool>
+    <integer name="config_batteryProtectionBatteryLevel">80</integer>
+    <integer name="config_batteryProtectionBatteryResumeLevel">60</integer>
+    <string name="config_batteryProtectionSysfsNode" translatable="false">/sys/class/qcom-battery/input_suspend</string>
+    <string name="config_batteryProtectionSuspendValue" translatable="false">1</string>
+    <string name="config_batteryProtectionResumeValue" translatable="false">0</string>
 </resources>

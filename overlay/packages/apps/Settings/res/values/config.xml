@@ -14,4 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Common doze package name -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
+
+    <!-- Battery Protection -->
+    <bool name="config_supportBatteryProtection">true</bool>
 </resources>
