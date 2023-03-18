@@ -67,10 +67,6 @@ static inline const char *BtmGetDefaultName()
 }
 
 #define BTM_DEF_LOCAL_NAME BtmGetDefaultName()
-// Disables read remote device feature
-#define MAX_ACL_CONNECTIONS   16
-#define MAX_L2CAP_CHANNELS    16
-#define BLE_VND_INCLUDED   TRUE
 
 #pragma pop_macro("PROPERTY_VALUE_MAX")
 
