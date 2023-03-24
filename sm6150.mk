@@ -102,7 +102,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
     android.hardware.bluetooth.audio@2.1-impl:32 \
-    android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
     libbthost_if \
     libldacBT_bco \
